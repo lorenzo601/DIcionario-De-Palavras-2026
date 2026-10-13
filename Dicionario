@@ -1,0 +1,10 @@
+dicionario_memes = {"MEME" : "É uma Piada feita em: Texto, Video, Imagem ou uma Ideia", "POV": "Ponto de Vista, é a vista do Persongem na visão dele!", "MVP": "Most Valuable Player, ou Jogador Mais Valioso(Usado para jogadores Bons", "AFK": "Away From Keyboard, literalmente longe do teclado", "LOL" : "Laughing Out Loud, Rindo Muito e Alto", "OMG" : "Oh My God, O Meu Deus", "OP" : "Overpowered, Muito Forte" }
+
+farejador = input("Qual palavra você vai querer aprender? USE TUDO EM MAIUSCULO")
+
+
+if farejador in dicionario_memes:
+    print(dicionario_memes[farejador])
+    
+else:
+    print("Não encontrei essa Palavra")
